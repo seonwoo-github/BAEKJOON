@@ -12,8 +12,11 @@ def solution(a, b):
     a = int(a)
     b = int(b)
     
-    if a and b == int(0):
-        pirnt('True')
+    if a == b:
+        if a == int(0):
+            print('True')
+        else:
+            print('False')
     else:
         print('False')
         
