@@ -3,5 +3,5 @@
 # 양식에 맞게 input을 받아온다.
 y,m,d = input().split('.')
 
-# answer
+# Answer
 print(d + '-' + m + '-' + y)
