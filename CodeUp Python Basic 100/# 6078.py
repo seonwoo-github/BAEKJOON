@@ -4,16 +4,9 @@
 입력한 문자를 계속 출력하는 프로그램을 작성해보자.
 '''
 
-# Input
-str = input()
-
 # Answer
-def solution(str):
-    str = list(str)
-    
-    for i in str:
-        print(i)
-        if i == 'q':
-            break
-        
-solution(str)
+while True:
+    str = input()
+    print(str)
+    if str == 'q':
+        break
